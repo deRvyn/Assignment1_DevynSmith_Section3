@@ -1,0 +1,43 @@
+﻿body {
+    font-family:'Agency FB';
+    background-color: midnightblue;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    color: black;
+    width: 200px;
+}
+
+table {
+    width: 350px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    width: 350px;
+}
+
+input {
+    font-family:'Agency FB';
+    font-size: inherit;
+}
+
+ul.JobList li {
+    list-style-type: none;
+}
+
+th {
+    width: 200px;
+    text-align: left;
+}
+
+p {
+    width: 30%;
+}
+
+img {
+    width: 30%;
+}

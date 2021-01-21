@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<!--Assignment 1, Devyn Smith, Section 3
+    Program that tells a bit about me and can calculate grades-->
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Devyn Smith</title>
+    <link rel="icon" type="image/png" href="https://icons.iconarchive.com/icons/graphicloads/flat-finance/256/global-icon.png" />
+</head>
+
+<body>
+    <!--Title (my name)-->
+    <h1>
+        Devyn Smith
+    </h1>
+
+    <!--Image of me-->
+    <img src="img/devynHiking.jpg" />
+
+    <!--Paragraph about this class-->
+    <p>
+        I hope to further advance my programming skills and hopefully develop more of a love for it. I especially want
+        to learn more of the front end side of theings, so I'm especially excited for React when we get to that
+    </p>
+
+    <!--Job List Heading-->
+    <p>
+        Top 3 Jobs:
+    </p>
+
+    <!--List of Jobs-->
+    <ul class="JobList">
+        <li>1: Project Management</li>
+        <li>2: Front-end Development</li>
+        <li>3: SQL/Database Management</li>
+    </ul>
+
+    <!--Grade Calculator Heading-->
+    <h2>
+        Grade Calculator
+    </h2>
+
+    <!--List of Grade Areas-->
+    <form>
+        <table>
+            <tr>
+                <th>
+                    <label>Assignments (out of 100%)</label>
+                </th>
+                <td>
+                    <input id="assignments" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Group Project (out of 100%)</label>
+                </th>
+                <td>
+                    <input id="group" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Quizzes (out of 100%)</label>
+                </th>
+                <td>
+                    <input id="quizzes" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Exams (out of 100%)</label>
+                </th>
+                <td>
+                    <input id="exams" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>INTEX (out of 100%)</label>
+                </th>
+                <td>
+                    <input id="intex" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <br /><button type="button" onclick="gradeCalc()">Calculate Grade</button>
+                </th>
+            </tr>
+        </table>
+
+    </form>
+
+    <script src="js/gradeCalculator.js"></script>
+
+</body>
+
+
+</html>
